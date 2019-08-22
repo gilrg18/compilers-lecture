@@ -4,7 +4,7 @@ if [ -f log ]
 then
     echo "Hi, this is the output of the analysis:"
     echo -n "You have"
-    #Expresiones regukares en bash
+    #Expresiones regulares en bash
     grep -hP '^[ \t]+[a-z]*' log | 
     sed -r 's/[0-9a-fA-F][ \t][0-9a-fA-F]{2}[ \t]([0-9a-fA-F]{2})*/ /g' | 
     sed -r 's/[ \t][0-9a-fA-F]{2}[ \t]/ /g' |
