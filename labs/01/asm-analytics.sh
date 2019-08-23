@@ -1,5 +1,5 @@
 !/usr/bin/bash
-
+#Gilberto Rogel García A01630171
 if [ -f log ]
 then
     echo "Hi, this is the output of the analysis:"
