@@ -1,10 +1,10 @@
-
+hola
 ./simple_foo:     formato del fichero elf64-x86-64
 
 
 Desensamblado de la sección .init:
-
-0000000000400400 <_init>:
+hola
+0000000000400400 <_init>:            
   400400:	48 83 ec 08          	sub    $0x8,%rsp
   400404:	48 8b 05 ed 0b 20 00 	mov    0x200bed(%rip),%rax        # 600ff8 <_DYNAMIC+0x1d0>
   40040b:	48 85 c0             	test   %rax,%rax
