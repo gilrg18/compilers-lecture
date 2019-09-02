@@ -1,7 +1,8 @@
+#Gilberto Rogel Garcia A01630171
 use feature 'say';
 
 
-my $file = 'C:\Users\gilbe_000\Desktop\UltimoSemestre\Compiladores\tareasetcetc\compilers-lecture\labs\01\log'; 
+my $file = 'log'; 
 open(FH, $file) or die("File $file not found"); 
       
 my $count_instructions = 0;
