@@ -1,14 +1,14 @@
 //gcc my_compiler.c
-//a < hello.c
+//./test < hello.c
 #include <stdio.h>
 
 int main(){
-   
     int balancedParenthesis = 0;
     int bBrackets = 0;
     int bBraces = 0;
     int bDoubleQuotes = 0;
     int bSingleQuotes = 0;
+
 
     //scan
     //c for char scanner
