@@ -58,9 +58,9 @@ developers such as:
 ## Please send the mail as git send mail:
 
     ```
-        $ git add asm-analytics.sh
+        $ git add asm-analytics.pl
         $ git commit -s -m <STUDENT-ID>-homework-01
-        git commit -m "<a01630171>-homework-01"
+        git commit -s -m "<a01630171>-homework-01"
         $ git send-email -1
 
     ```
